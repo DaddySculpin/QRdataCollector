@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Local databases and runtime collection data
+data/
+
+# Local task/ide files
+.gemini/
+.system_generated/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
