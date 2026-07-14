@@ -18,21 +18,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 1. QR Code Scan Tracker and Redirect Endpoint
 // Example: GET http://localhost:3000/qr?appId=retail-promo-2026&expType=coupon_deal&redirect=https://google.com
 app.get('/qr', async (req, res) => {
-  const { appId, expType, redirect } = req.query;
+  const { appId, expType, redirect, evtType } = req.query;
   const destination = redirect || '/'; // Fallback to dashboard if no redirect URL
 
   const userAgent = req.headers['user-agent'];
   const ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
 
   try {
-    // Record the QR scan event
+    // Record the redirect event
     await db.addEvent({
       appId: appId || 'qr-unknown-app',
       experienceType: expType || 'qr-scan',
-      eventType: 'qr_scan',
+      eventType: evtType || 'qr_scan',
       eventData: {
         redirectUrl: destination,
-        source: req.query.source || 'qr_code'
+        source: req.query.source || (evtType ? 'link_click' : 'qr_code')
       },
       userAgent,
       ip
