@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "9d30a270-843a-4612-bf5e-938296424a45",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Firefox"
+    },
+    "timestamp": "2026-07-04T12:08:32.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.92"
+  },
+  {
+    "id": "11eb162c-ff1b-4a4b-a52f-dfa2d6602755",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-43",
+      "discountPct": 15
+    },
+    "timestamp": "2026-07-04T14:03:38.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.7"
+  },
+  {
+    "id": "0ceea519-d511-4376-abeb-91898c7be6d2",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-04T14:11:56.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.234"
+  },
+  {
+    "id": "93d32333-fc2d-4316-a4ca-540dde19eca0",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-04T15:45:08.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.45"
+  },
+  {
+    "id": "a8a7de52-d1bf-45b5-a660-d201008d5147",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 66
+    },
+    "timestamp": "2026-07-04T16:13:10.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.187"
+  },
+  {
+    "id": "45a87262-588f-4a75-b864-18744d901839",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-74",
+      "discountPct": 25
+    },
+    "timestamp": "2026-07-04T16:17:38.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.97"
+  },
+  {
+    "id": "7ce7968d-5a9c-41ab-85a8-87511d8b9e93",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 134
+    },
+    "timestamp": "2026-07-04T16:24:41.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.12"
+  },
+  {
+    "id": "a1fd4a58-c9fb-40f3-8ccc-17084bf7eb30",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Firefox"
+    },
+    "timestamp": "2026-07-04T16:32:15.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.126"
+  },
+  {
+    "id": "dbb2cf55-df9f-4db1-8ec4-df09f7b06bf1",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "trex_skeleton",
+      "viewDurationSeconds": 43
+    },
+    "timestamp": "2026-07-04T16:55:31.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.248"
+  },
+  {
+    "id": "47c3d0fc-d50f-4fd9-a944-8629d3e52710",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 72
+    },
+    "timestamp": "2026-07-04T17:04:02.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.55"
+  },
+  {
+    "id": "84793c27-28f9-4081-8f9c-d8f78896432a",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-04T17:21:51.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.170"
+  },
+  {
+    "id": "7091b9d7-801c-4ce2-8649-4adab56bb05c",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-04T17:36:00.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.239"
+  },
+  {
+    "id": "a1d9a783-3ac4-4061-9456-2e67f6c73ed5",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q3",
+      "q": "Was the pricing fair?",
+      "a": "Somewhat"
+    },
+    "timestamp": "2026-07-04T19:43:27.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.91"
+  },
+  {
+    "id": "f3ceb60f-f195-49e6-81ec-060e60398fc4",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-04T20:19:42.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.204"
+  },
+  {
+    "id": "00c55372-b964-4e8e-8029-648d8da19e88",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-04T20:29:58.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.187"
+  },
+  {
+    "id": "bf159ea9-d091-4b39-9139-cb162aff228b",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-04T21:31:11.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.234"
+  },
+  {
+    "id": "64a3575d-59d6-4564-aa3d-45e03812567f",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-04T22:04:43.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.189"
+  },
+  {
+    "id": "d4a09180-5280-4028-b32b-ed9a8c7d4eda",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-04T23:06:23.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.137"
+  },
+  {
+    "id": "3c912d15-3291-4f40-a507-37d2a9af98d5",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "Yes, definitely"
+    },
+    "timestamp": "2026-07-04T23:12:40.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.52"
+  },
+  {
+    "id": "7d717923-8596-41f9-a43b-bed1f09814d4",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "mummy_tomb",
+      "viewDurationSeconds": 52
+    },
+    "timestamp": "2026-07-05T00:09:22.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.117"
+  },
+  {
+    "id": "fd6891bb-ddf8-4d2d-a4ec-7d55b7baa994",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Firefox"
+    },
+    "timestamp": "2026-07-05T00:11:09.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.139"
+  },
+  {
+    "id": "855eb620-14ff-4abd-9570-a5b4c6b94fbb",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q1",
+      "q": "How would you rate the product quality?",
+      "a": "Average"
+    },
+    "timestamp": "2026-07-05T01:22:49.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.125"
+  },
+  {
+    "id": "1904221f-474d-45d0-a69c-8c5c9e1db88f",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-05T12:19:04.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.173"
+  },
+  {
+    "id": "377c5567-6958-46d7-97ad-c9fd05c5ed9e",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-96",
+      "discountPct": 10
+    },
+    "timestamp": "2026-07-05T12:54:19.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.32"
+  },
+  {
+    "id": "73b06ae8-cbdc-4650-a7f7-a0fed370c256",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-05T13:24:38.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.93"
+  },
+  {
+    "id": "c837671e-fdb7-4e4c-9169-03331fe1fc48",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-05T13:34:32.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.120"
+  },
+  {
+    "id": "d3d4ffc1-0c02-454a-9e92-7fbd7fe98c49",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q3",
+      "q": "Was the pricing fair?",
+      "a": "Yes"
+    },
+    "timestamp": "2026-07-05T13:39:02.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.137"
+  },
+  {
+    "id": "41a2383b-ec2e-4c0a-bc45-80af523052bf",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-05T14:15:23.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.24"
+  },
+  {
+    "id": "9b15611e-9f09-47ea-aa50-3bc59af73af4",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-05T14:43:58.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.47"
+  },
+  {
+    "id": "dbea7f9d-973c-40f7-9de7-46f4736e8c1b",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 276
+    },
+    "timestamp": "2026-07-05T15:38:13.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.182"
+  },
+  {
+    "id": "8c9e11e5-012e-457e-9636-b03e18fdf5e1",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-05T15:59:55.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.159"
+  },
+  {
+    "id": "76cf16e4-c1d4-4d48-b230-99fff0faa5bc",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-59",
+      "discountPct": 20
+    },
+    "timestamp": "2026-07-05T19:30:00.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.103"
+  },
+  {
+    "id": "9f2df2af-fac1-4cb5-b616-f90abaab6a59",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-05T19:59:30.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.113"
+  },
+  {
+    "id": "d2cc08d8-3a17-40c9-9dd2-d6cb898f4de7",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-72",
+      "discountPct": 25
+    },
+    "timestamp": "2026-07-05T20:57:49.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.52"
+  },
+  {
+    "id": "a7e107c6-51a7-4058-afce-7fdead97e32b",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "mummy_tomb",
+      "viewDurationSeconds": 60
+    },
+    "timestamp": "2026-07-05T21:07:13.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.7"
+  },
+  {
+    "id": "51e8758e-68ea-4aa6-b18f-53ed68506652",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "starry_night",
+      "viewDurationSeconds": 38
+    },
+    "timestamp": "2026-07-05T21:11:56.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.87"
+  },
+  {
+    "id": "2f058f1b-8548-4dcf-889d-7622202304cf",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q1",
+      "q": "How would you rate the product quality?",
+      "a": "Excellent"
+    },
+    "timestamp": "2026-07-05T22:02:40.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.156"
+  },
+  {
+    "id": "2042f7f2-6fd7-40e3-b4a4-42080125f713",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-05T22:22:45.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.30"
+  },
+  {
+    "id": "34d63959-c8bf-4e0b-b4b5-18225edb38b8",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-05T22:43:50.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.166"
+  },
+  {
+    "id": "22dfab63-db70-4737-a1b3-fca33e56a792",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-05T23:27:20.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.236"
+  },
+  {
+    "id": "723b0568-da60-4e34-b166-38a5745ff735",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 175
+    },
+    "timestamp": "2026-07-05T23:35:16.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.232"
+  },
+  {
+    "id": "13283e56-266b-41f8-b51f-719289961859",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-97",
+      "discountPct": 10
+    },
+    "timestamp": "2026-07-05T23:45:39.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.132"
+  },
+  {
+    "id": "933d36da-5d0e-4d10-b118-67de6956e7df",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-05T23:47:36.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.146"
+  },
+  {
+    "id": "627fe767-4b0f-4049-ac8a-bf5a50f404f1",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 62
+    },
+    "timestamp": "2026-07-06T01:29:58.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.24"
+  },
+  {
+    "id": "4144e090-da26-4635-8fe9-92857a7edd14",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-32",
+      "discountPct": 10
+    },
+    "timestamp": "2026-07-06T01:42:40.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.60"
+  },
+  {
+    "id": "419b0c93-2bef-488d-9dcd-634b8e7a7876",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q3",
+      "q": "Was the pricing fair?",
+      "a": "Yes"
+    },
+    "timestamp": "2026-07-06T12:04:01.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.167"
+  },
+  {
+    "id": "a272922f-39b3-4622-9166-fba968af0a76",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "Android",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-06T12:07:38.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.7"
+  },
+  {
+    "id": "b130f854-73d0-4569-814b-3ab5cfffce7b",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-06T13:04:02.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.75"
+  },
+  {
+    "id": "6358dd95-6e6b-4dfc-b04f-51d516c46250",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-06T13:50:51.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.117"
+  },
+  {
+    "id": "d29689bb-bd61-41c6-b5d0-76462b273b2f",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "trex_skeleton",
+      "viewDurationSeconds": 78
+    },
+    "timestamp": "2026-07-06T15:10:22.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.111"
+  },
+  {
+    "id": "6befa24e-afdd-4f28-861e-533a620c6508",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 58
+    },
+    "timestamp": "2026-07-06T15:34:44.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.51"
+  },
+  {
+    "id": "06a644d2-4c4c-4bdb-a108-50b09499aa34",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "Yes, definitely"
+    },
+    "timestamp": "2026-07-06T15:34:54.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.215"
+  },
+  {
+    "id": "82f5a12a-8cf7-46f5-b522-b05e45c2786a",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "iOS",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-06T15:44:13.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.80"
+  },
+  {
+    "id": "82091138-17ee-4a84-9f83-8ae0a29247da",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 291
+    },
+    "timestamp": "2026-07-06T16:31:51.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.58"
+  },
+  {
+    "id": "65d6b138-6f79-446c-8ff4-9a040ecc0c6c",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "trex_skeleton",
+      "viewDurationSeconds": 63
+    },
+    "timestamp": "2026-07-06T17:44:41.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.136"
+  },
+  {
+    "id": "47c68eff-e899-4217-bdf1-3bd0c2948297",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-06T19:17:58.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.7"
+  },
+  {
+    "id": "656b5b96-e155-4089-ba81-680a2a6a85e2",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-06T20:27:29.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.176"
+  },
+  {
+    "id": "123059b4-2ba0-4540-a05d-fb7504bba144",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 77
+    },
+    "timestamp": "2026-07-06T21:35:37.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.211"
+  },
+  {
+    "id": "8af4a4a7-1d86-4e6f-a443-e2e697749031",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-06T22:26:31.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.5"
+  },
+  {
+    "id": "b34ad4bd-5561-4548-967f-544066ad6083",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Firefox"
+    },
+    "timestamp": "2026-07-06T23:19:46.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.28"
+  },
+  {
+    "id": "30f87c33-fc26-456a-becb-4b3e3d72e935",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-37",
+      "discountPct": 25
+    },
+    "timestamp": "2026-07-07T00:57:09.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.191"
+  },
+  {
+    "id": "e25e044a-b4a7-4270-a28d-101bb97525e1",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "mummy_tomb",
+      "viewDurationSeconds": 71
+    },
+    "timestamp": "2026-07-07T13:16:20.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.229"
+  },
+  {
+    "id": "54a9accd-33ed-4ddc-9f42-cbcfacaf07ee",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q3",
+      "q": "Was the pricing fair?",
+      "a": "No"
+    },
+    "timestamp": "2026-07-07T14:16:08.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.235"
+  },
+  {
+    "id": "e9c7df63-01b7-426d-8cb4-907544f42e20",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-07T14:33:38.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.27"
+  },
+  {
+    "id": "6140297b-f994-4657-aff4-59d3e2ce7d66",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "Maybe"
+    },
+    "timestamp": "2026-07-07T14:34:08.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.103"
+  },
+  {
+    "id": "cd16e785-fa81-46f5-80df-3bd7e6815d4b",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-07T14:58:38.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.143"
+  },
+  {
+    "id": "a07e654c-9e2d-40af-8327-f11928870a64",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 33
+    },
+    "timestamp": "2026-07-07T15:24:57.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.8"
+  },
+  {
+    "id": "b254bdce-faa9-4561-9980-26aa9b8a742f",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-07T15:29:47.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.246"
+  },
+  {
+    "id": "2f985fa9-1955-4b84-9c20-08b18d103544",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "trex_skeleton",
+      "viewDurationSeconds": 32
+    },
+    "timestamp": "2026-07-07T15:32:55.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.192"
+  },
+  {
+    "id": "a80c16c2-f21a-471c-bb8b-96256d959789",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "starry_night",
+      "viewDurationSeconds": 64
+    },
+    "timestamp": "2026-07-07T16:35:59.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.86"
+  },
+  {
+    "id": "fcf6ab93-5883-47e5-a7c9-a52b5e603662",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "No"
+    },
+    "timestamp": "2026-07-07T16:52:09.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.212"
+  },
+  {
+    "id": "b7766841-9ace-4621-a3ec-3e2f7d6102cb",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-13",
+      "discountPct": 20
+    },
+    "timestamp": "2026-07-07T16:56:51.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.157"
+  },
+  {
+    "id": "439d2791-4d8c-460a-b6a9-249b474984d5",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-07T18:53:08.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.1"
+  },
+  {
+    "id": "fbac2a72-3b96-4eaf-b77d-be92edf0d137",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 253
+    },
+    "timestamp": "2026-07-07T18:53:10.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.228"
+  },
+  {
+    "id": "2b6c92a7-fe69-4afc-9211-812c9094287b",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-07T21:00:34.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.218"
+  },
+  {
+    "id": "96fc1d9f-ca40-4ba8-9c1e-af34cc3d7644",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q1",
+      "q": "How would you rate the product quality?",
+      "a": "Excellent"
+    },
+    "timestamp": "2026-07-07T21:20:59.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.240"
+  },
+  {
+    "id": "681a2a29-c9fb-4a47-b2ce-faa374ee1e79",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-07T22:12:50.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.234"
+  },
+  {
+    "id": "97594ec7-2da2-47a8-8b80-894dce300a9d",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-70",
+      "discountPct": 15
+    },
+    "timestamp": "2026-07-07T22:30:47.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.123"
+  },
+  {
+    "id": "d013becf-aa23-454c-b2be-748ee7b0ee91",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "No"
+    },
+    "timestamp": "2026-07-07T23:24:00.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.135"
+  },
+  {
+    "id": "4e782a98-6b60-4dca-8534-23daa8bf503b",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-08T00:28:26.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.192"
+  },
+  {
+    "id": "689acc3d-9574-4211-b98f-9ca3d13f2f32",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-08T01:02:04.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.148"
+  },
+  {
+    "id": "b108c2e5-cead-4f75-bd00-52f8257923b4",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-08T13:11:13.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.162"
+  },
+  {
+    "id": "9cebb9d6-81af-410b-8d32-183aa6f0fd90",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "Android",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-08T13:53:40.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.129"
+  },
+  {
+    "id": "108118b8-bca5-4a83-98b6-cb801b1cea07",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-08T14:13:24.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.77"
+  },
+  {
+    "id": "883465bd-77d8-4865-b315-b70d0c917db7",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-08T15:08:00.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.180"
+  },
+  {
+    "id": "54eac19e-5e99-4dad-93bb-5ee858fe2a94",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 223
+    },
+    "timestamp": "2026-07-08T19:01:51.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.152"
+  },
+  {
+    "id": "425c10cb-9b5d-4ae7-a3cb-78a59c1b594f",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-08T19:16:42.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.98"
+  },
+  {
+    "id": "282febff-4005-44e9-beb9-81182c3e4cc0",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "starry_night",
+      "viewDurationSeconds": 115
+    },
+    "timestamp": "2026-07-08T19:18:04.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.111"
+  },
+  {
+    "id": "48a9f5e1-0d41-4006-8694-a33eb5d3e6ad",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Firefox"
+    },
+    "timestamp": "2026-07-08T19:54:30.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.208"
+  },
+  {
+    "id": "f0758982-b7d8-47c0-a7e7-306bb96ca6f1",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-08T21:04:49.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.235"
+  },
+  {
+    "id": "581ccee0-e2a1-4d8a-8a85-7305dfc7384c",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "ar_trigger",
+    "eventData": {
+      "exhibitId": "trex_skeleton",
+      "viewDurationSeconds": 126
+    },
+    "timestamp": "2026-07-08T21:33:59.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.171"
+  },
+  {
+    "id": "c1d0dcd0-d83b-4a2c-8c7d-ffc7881022e5",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-19",
+      "discountPct": 10
+    },
+    "timestamp": "2026-07-08T21:51:53.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.27"
+  },
+  {
+    "id": "11012a2f-7e5a-49e0-bb14-48a4432ecd51",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/museum",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-08T22:09:32.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.185"
+  },
+  {
+    "id": "30cb5049-bdd9-463e-bcf4-f1ca0a78b63a",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-71",
+      "discountPct": 25
+    },
+    "timestamp": "2026-07-08T22:20:04.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.127"
+  },
+  {
+    "id": "704f184a-6cb5-4b54-bb6e-c52257306d8d",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "No"
+    },
+    "timestamp": "2026-07-09T15:32:11.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.88"
+  },
+  {
+    "id": "b12bd717-5781-4c78-bb60-113d3384bfad",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "No"
+    },
+    "timestamp": "2026-07-09T16:58:14.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.27"
+  },
+  {
+    "id": "43a7a7e8-634e-4584-83ef-4e3a1996756b",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-09T18:11:20.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.70"
+  },
+  {
+    "id": "5f522648-9097-4d72-9b1b-52834f20a981",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 219
+    },
+    "timestamp": "2026-07-09T19:24:37.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.210"
+  },
+  {
+    "id": "e8c4dcba-ad15-4164-b7e3-f79e711b9dcc",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-37",
+      "discountPct": 25
+    },
+    "timestamp": "2026-07-09T19:45:24.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.228"
+  },
+  {
+    "id": "2554ab9e-0683-4292-8b06-0ecb6d35f92d",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-20",
+      "discountPct": 25
+    },
+    "timestamp": "2026-07-09T20:29:17.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.147"
+  },
+  {
+    "id": "f2fb774a-fa77-44c2-8989-75c9292c64f3",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-09T21:10:01.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.34"
+  },
+  {
+    "id": "14d771f1-092a-4ee5-b1a4-b6c52be377f7",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "table_stand"
+    },
+    "timestamp": "2026-07-09T21:25:14.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.123"
+  },
+  {
+    "id": "dbbc17df-6882-403d-bfcc-0b3a697edb6b",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "poster"
+    },
+    "timestamp": "2026-07-09T21:42:45.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.188"
+  },
+  {
+    "id": "836085f2-af47-48ff-b510-6c593a793cc8",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-09T22:15:28.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.54"
+  },
+  {
+    "id": "7e810702-a477-48f4-85d3-2191979da570",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-09T23:03:51.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.21"
+  },
+  {
+    "id": "c0d30293-12b7-4f32-8ccf-c168fea8dc1d",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-09T23:09:40.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.61"
+  },
+  {
+    "id": "08a21581-3c85-4249-9701-a7280ae78684",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-10T00:55:21.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.123"
+  },
+  {
+    "id": "ddffde9a-daca-46a1-94b8-329e380677f5",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "badge"
+    },
+    "timestamp": "2026-07-10T12:21:23.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.61"
+  },
+  {
+    "id": "544c5b08-c3dc-4fa1-bc5a-8b51bca6a4f5",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "tablet",
+      "os": "iOS",
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-07-10T13:29:08.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.227"
+  },
+  {
+    "id": "1b2bb981-1dd8-4098-972f-97a73557282e",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "app_exit",
+    "eventData": {
+      "sessionsDurationSeconds": 77
+    },
+    "timestamp": "2026-07-10T15:38:40.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.190"
+  },
+  {
+    "id": "1614db87-5cf3-4f80-a001-043f562cfba2",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "No"
+    },
+    "timestamp": "2026-07-10T16:29:36.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.23"
+  },
+  {
+    "id": "8fa1af9f-2aed-42d4-9cd3-1a5e5a426f40",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-59",
+      "discountPct": 10
+    },
+    "timestamp": "2026-07-10T17:01:23.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.18"
+  },
+  {
+    "id": "3d48aed2-91d2-4118-b102-4fc6827b7ab7",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "Maybe"
+    },
+    "timestamp": "2026-07-10T22:02:13.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.17"
+  },
+  {
+    "id": "546f35a8-9941-4842-928d-6b62a95c3036",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/survey",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-10T22:08:58.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.205"
+  },
+  {
+    "id": "5037e5b8-bdf6-42e4-8cbd-e6bb09e5f8c5",
+    "appId": "museum-tour-ar",
+    "experienceType": "ar_exhibit",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Safari"
+    },
+    "timestamp": "2026-07-10T22:12:24.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.131"
+  },
+  {
+    "id": "f46c833f-b92c-4003-8323-ab596f779f73",
+    "appId": "product-survey",
+    "experienceType": "feedback_form",
+    "eventType": "question_response",
+    "eventData": {
+      "qId": "q2",
+      "q": "Would you recommend us to a friend?",
+      "a": "Yes, definitely"
+    },
+    "timestamp": "2026-07-10T22:57:24.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.70"
+  },
+  {
+    "id": "b65287d3-1cd4-4c30-977d-a9de3a522ce7",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://example.com/promo",
+      "scannedFrom": "flyer"
+    },
+    "timestamp": "2026-07-10T23:45:44.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.90"
+  },
+  {
+    "id": "fcfd2927-7ec4-4455-803b-9d6cddf0b110",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "app_start",
+    "eventData": {
+      "deviceType": "mobile",
+      "os": "Android",
+      "browser": "Firefox"
+    },
+    "timestamp": "2026-07-11T01:22:48.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.146"
+  },
+  {
+    "id": "b13fe460-505c-419d-a261-50b5ba5f56a1",
+    "appId": "retail-promo-2026",
+    "experienceType": "coupon_deal",
+    "eventType": "coupon_claim",
+    "eventData": {
+      "couponCode": "SAVE-18",
+      "discountPct": 10
+    },
+    "timestamp": "2026-07-11T01:32:36.274Z",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+    "ip": "192.168.1.183"
+  },
+  {
+    "id": "29b6cad3-a669-4a11-9cf0-a3d4c6c5f4db",
+    "appId": "automated-test-widget",
+    "experienceType": "health_check",
+    "eventType": "pulse_heartbeat",
+    "eventData": {
+      "agent": "antigravity-verifier",
+      "status": "healthy",
+      "latencyMs": 14
+    },
+    "timestamp": "2026-07-10T14:15:13.147Z",
+    "userAgent": "Unknown Client",
+    "ip": "::ffff:127.0.0.1"
+  },
+  {
+    "id": "e16007b6-5adf-4dd0-bf85-80167c7bd7e4",
+    "appId": "test-qr-campaign",
+    "experienceType": "scanner_promo",
+    "eventType": "qr_scan",
+    "eventData": {
+      "redirectUrl": "https://google.com",
+      "source": "qr_code"
+    },
+    "timestamp": "2026-07-10T14:15:13.156Z",
+    "userAgent": "Unknown Client",
+    "ip": "::ffff:127.0.0.1"
+  }
+]

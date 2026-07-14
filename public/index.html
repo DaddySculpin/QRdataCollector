@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Data Collector & Analytics Dashboard</title>
+  <meta name="description" content="A real-time data ingestion tracker and dashboard for QR scans and external application events.">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ApexCharts CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <!-- QRCode.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+  <!-- Background decorations for glassmorphism layout -->
+  <div class="glass-bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="8" height="8" rx="1.5" stroke="url(#logo-grad)" stroke-width="2"/>
+          <rect x="6" y="6" width="1" height="1" rx="0.5" fill="url(#logo-grad)"/>
+          <rect x="14" y="2" width="8" height="8" rx="1.5" stroke="url(#logo-grad)" stroke-width="2"/>
+          <rect x="17" y="5" width="2" height="2" rx="0.5" fill="url(#logo-grad)"/>
+          <rect x="2" y="14" width="8" height="8" rx="1.5" stroke="url(#logo-grad)" stroke-width="2"/>
+          <rect x="5" y="17" width="2" height="2" rx="0.5" fill="url(#logo-grad)"/>
+          <path d="M14 14H16V16H14V14Z" fill="url(#logo-grad)"/>
+          <path d="M18 14H22V16H18V14Z" fill="url(#logo-grad)"/>
+          <path d="M14 18H18V20H14V18Z" fill="url(#logo-grad)"/>
+          <path d="M20 18H22V22H20V18Z" fill="url(#logo-grad)"/>
+          <path d="M14 21H18V22H14V21Z" fill="url(#logo-grad)"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#6366f1"/>
+              <stop offset="0.5" stop-color="#a855f7"/>
+              <stop offset="1" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="logo-text">
+          <h1>QR<span>Pulse</span></h1>
+          <p>Analytics Engine</p>
+        </div>
+      </div>
+
+      <!-- App Tabs -->
+      <nav class="nav-tabs">
+        <button class="tab-btn active" id="tab-dashboard" onclick="switchTab('dashboard')">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v9H3zM14 3h7v5h-7zM14 12h7v9h-7zM3 16h7v5H3z"/></svg>
+          Analytics Dashboard
+        </button>
+        <button class="tab-btn" id="tab-simulator" onclick="switchTab('simulator')">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          Interaction Simulator
+        </button>
+      </nav>
+
+      <div class="status-indicator">
+        <span class="pulse-dot"></span>
+        <span class="status-label">Ingestion Server Active</span>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+
+      <!-- TAB 1: DASHBOARD -->
+      <div id="content-dashboard" class="tab-content active">
+        
+        <!-- Dashboard Filters Bar -->
+        <section class="filters-bar glass-panel">
+          <div class="filter-group">
+            <label for="filter-app-id">Application ID</label>
+            <div class="select-wrapper">
+              <select id="filter-app-id" onchange="loadDashboardData()">
+                <option value="">All Applications</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-experience-type">Experience Type</label>
+            <div class="select-wrapper">
+              <select id="filter-experience-type" onchange="loadDashboardData()">
+                <option value="">All Experiences</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-start-date">Start Date</label>
+            <input type="date" id="filter-start-date" onchange="loadDashboardData()">
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-end-date">End Date</label>
+            <input type="date" id="filter-end-date" onchange="loadDashboardData()">
+          </div>
+
+          <button class="btn btn-secondary reset-btn" onclick="resetFilters()">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+            Reset Filters
+          </button>
+        </section>
+
+        <!-- KPI Metrics Grid -->
+        <section class="kpi-grid">
+          <div class="kpi-card glass-panel gradient-border">
+            <div class="kpi-icon-wrapper purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24M14.83 9.17l4.24-4.24M14.83 14.83l4.24 4.24M9.17 14.83l-4.24 4.24"/></svg>
+            </div>
+            <div class="kpi-data">
+              <h3 id="kpi-total-events">0</h3>
+              <p>Total Interactions</p>
+            </div>
+            <div class="kpi-trend trend-neutral">Aggregated data</div>
+          </div>
+
+          <div class="kpi-card glass-panel gradient-border">
+            <div class="kpi-icon-wrapper indigo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><rect x="7" y="7" width="3" height="3"/><rect x="14" y="7" width="3" height="3"/><rect x="7" y="14" width="3" height="3"/><rect x="14" y="14" width="3" height="3"/></svg>
+            </div>
+            <div class="kpi-data">
+              <h3 id="kpi-qr-scans">0</h3>
+              <p>QR Code Scans</p>
+            </div>
+            <div class="kpi-trend trend-up" id="kpi-qr-ratio">0% of total</div>
+          </div>
+
+          <div class="kpi-card glass-panel gradient-border">
+            <div class="kpi-icon-wrapper cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+            </div>
+            <div class="kpi-data">
+              <h3 id="kpi-app-events">0</h3>
+              <p>Application Events</p>
+            </div>
+            <div class="kpi-trend trend-up" id="kpi-app-ratio">0% of total</div>
+          </div>
+
+          <div class="kpi-card glass-panel gradient-border">
+            <div class="kpi-icon-wrapper pink">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div class="kpi-data">
+              <h3 id="kpi-active-apps">0</h3>
+              <p>Active Applications</p>
+            </div>
+            <div class="kpi-trend trend-neutral">IDs tracking</div>
+          </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+          <div class="chart-card glass-panel trend-chart-container">
+            <div class="chart-header">
+              <h2>Interaction Timeline Trends</h2>
+              <span class="chart-sub">Daily QR Scans vs. App Interactions</span>
+            </div>
+            <div id="trend-chart" class="chart-body"></div>
+          </div>
+
+          <div class="side-charts">
+            <div class="chart-card glass-panel">
+              <div class="chart-header">
+                <h2>Experiences Share</h2>
+                <span class="chart-sub">Volume by Experience Type</span>
+              </div>
+              <div id="experience-chart" class="chart-body"></div>
+            </div>
+
+            <div class="chart-card glass-panel">
+              <div class="chart-header">
+                <h2>Interaction Log Types</h2>
+                <span class="chart-sub">Frequency of event classes</span>
+              </div>
+              <div id="event-type-chart" class="chart-body"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Data Log Section -->
+        <section class="log-section glass-panel">
+          <div class="log-header">
+            <div class="log-title">
+              <h2>Raw Interactions Ledger</h2>
+              <p id="log-count">Showing 0 of 0 events</p>
+            </div>
+            <div class="table-actions">
+              <div class="filter-group-inline">
+                <label for="filter-event-type">Event Type</label>
+                <div class="select-wrapper select-xs">
+                  <select id="filter-event-type" onchange="loadDashboardEvents()">
+                    <option value="">All Types</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th onclick="toggleSort('timestamp')" class="sortable">
+                    Timestamp <span id="sort-icon-timestamp" class="sort-icon desc">▼</span>
+                  </th>
+                  <th onclick="toggleSort('appId')" class="sortable">
+                    Application ID <span id="sort-icon-appId" class="sort-icon"></span>
+                  </th>
+                  <th onclick="toggleSort('experienceType')" class="sortable">
+                    Experience Type <span id="sort-icon-experienceType" class="sort-icon"></span>
+                  </th>
+                  <th onclick="toggleSort('eventType')" class="sortable">
+                    Event Type <span id="sort-icon-eventType" class="sort-icon"></span>
+                  </th>
+                  <th>Payload Data</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="events-table-body">
+                <!-- Javascript will populate rows here -->
+                <tr>
+                  <td colspan="6" class="table-loading">Loading events dataset...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Pagination -->
+          <div class="pagination-container">
+            <div class="pagination-info">
+              Page <span id="current-page">1</span> of <span id="total-pages">1</span>
+            </div>
+            <div class="pagination-buttons">
+              <button class="btn btn-secondary btn-sm" id="prev-page-btn" onclick="changePage(-1)">Previous</button>
+              <button class="btn btn-secondary btn-sm" id="next-page-btn" onclick="changePage(1)">Next</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- TAB 2: INTERACTION SIMULATOR -->
+      <div id="content-simulator" class="tab-content">
+        <div class="simulator-grid">
+          
+          <!-- Column 1: QR Generator -->
+          <div class="simulator-card glass-panel">
+            <div class="sim-header">
+              <div class="sim-badge">Redirect Engine</div>
+              <h2>Generate Interactive QR Scan Trackers</h2>
+              <p>Generate a physical QR Code representing a marketing material or scan point. Scans are tracked and log geolocation/client info before routing the user.</p>
+            </div>
+            
+            <form id="qr-generator-form" class="sim-form" onsubmit="generateQRCode(event)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="qr-app-id">Application ID</label>
+                  <input type="text" id="qr-app-id" placeholder="e.g. store-checkout-qr" required value="store-checkout-qr">
+                </div>
+                <div class="form-field">
+                  <label for="qr-exp-type">Experience Type</label>
+                  <input type="text" id="qr-exp-type" placeholder="e.g. promo_coupon" required value="promo_coupon">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="qr-redirect">Destination Redirect URL</label>
+                <input type="url" id="qr-redirect" placeholder="https://example.com/claim-coupon" required value="https://example.com/claim-coupon">
+              </div>
+
+              <button type="submit" class="btn btn-primary">Generate QR Link & Code</button>
+            </form>
+
+            <div class="qr-output-section" id="qr-output-section" style="display: none;">
+              <div class="qr-code-box">
+                <div id="qrcode-render"></div>
+              </div>
+              <div class="qr-details">
+                <label>Generated Tracking Link</label>
+                <div class="copy-link-bar">
+                  <input type="text" id="qr-tracking-url" readonly>
+                  <button class="btn btn-secondary btn-sm" onclick="copyQRTrackingUrl()">Copy</button>
+                </div>
+                <div class="qr-actions">
+                  <a id="qr-visit-btn" href="#" target="_blank" class="btn btn-cyan btn-sm">
+                    Simulate Device QR Scan
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Event Sender -->
+          <div class="simulator-card glass-panel">
+            <div class="sim-header">
+              <div class="sim-badge font-purple">Event Dispatcher</div>
+              <h2>Simulate External Application Telemetry</h2>
+              <p>Simulate user events from embedded widgets, mobile apps, or games, such as launching applications, clicking features, or submitting responses.</p>
+            </div>
+
+            <div class="quick-preset-container">
+              <label>Load Flow Preset Scenario</label>
+              <div class="presets-buttons">
+                <button class="btn btn-secondary btn-sm" onclick="applyPreset('start')">Application Launched</button>
+                <button class="btn btn-secondary btn-sm" onclick="applyPreset('survey')">Questionnaire Answered</button>
+                <button class="btn btn-secondary btn-sm" onclick="applyPreset('ar_interact')">AR Interactive Trigger</button>
+                <button class="btn btn-secondary btn-sm" onclick="applyPreset('exit')">Session Exit</button>
+              </div>
+            </div>
+
+            <form id="event-simulator-form" class="sim-form" onsubmit="fireSimulatedEvent(event)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="sim-app-id">Application ID</label>
+                  <input type="text" id="sim-app-id" placeholder="e.g. ar-tour-app" required value="ar-tour-app">
+                </div>
+                <div class="form-field">
+                  <label for="sim-exp-type">Experience Type</label>
+                  <input type="text" id="sim-exp-type" placeholder="e.g. ar_museum" required value="ar_museum">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="sim-event-type">Event Type</label>
+                <input type="text" id="sim-event-type" placeholder="e.g. app_start" required value="app_start">
+              </div>
+
+              <div class="form-field">
+                <label for="sim-event-data">Payload Properties (JSON object)</label>
+                <textarea id="sim-event-data" rows="6" class="code-font" required>{
+  "deviceType": "mobile",
+  "os": "iOS",
+  "browser": "Safari"
+}</textarea>
+              </div>
+
+              <button type="submit" class="btn btn-purple">Dispatch Mock Event</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Event Payload Viewer Modal -->
+  <div id="details-modal" class="modal">
+    <div class="modal-content glass-panel">
+      <div class="modal-header">
+        <h2>Telemetry Payload Inspection</h2>
+        <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="meta-details-grid">
+          <div class="meta-detail-box">
+            <span class="meta-lbl">Event UUID</span>
+            <span id="modal-event-id" class="meta-val code-font">...</span>
+          </div>
+          <div class="meta-detail-box">
+            <span class="meta-lbl">Client IP</span>
+            <span id="modal-event-ip" class="meta-val">...</span>
+          </div>
+          <div class="meta-detail-box">
+            <span class="meta-lbl">User Agent</span>
+            <span id="modal-event-ua" class="meta-val">...</span>
+          </div>
+        </div>
+        <div class="json-code-container">
+          <label>Payload (eventData)</label>
+          <pre><code id="modal-event-json" class="code-font">{}</code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="app-footer-bar">
+    <p>QR Data Collector Dashboard &copy; 2026. Made with premium clean web guidelines.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
