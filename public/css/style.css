@@ -309,7 +309,7 @@ h1, h2, h3, h4 {
 /* Dashboard Filter Controls */
 .filters-bar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) 150px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) 150px 150px;
   gap: 20px;
   align-items: flex-end;
 }
@@ -423,6 +423,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: var(--text-muted);
+}
+
+.btn-danger {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: var(--rose);
+}
+.btn-danger:hover {
+  background: rgba(239, 68, 68, 0.22);
+  border-color: var(--rose);
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.2);
 }
 
 .btn-sm {
@@ -1150,7 +1161,7 @@ textarea.code-font {
   .filters-bar {
     grid-template-columns: 1fr;
   }
-  .reset-btn {
+  .reset-btn, .clear-btn {
     width: 100%;
   }
   .form-row {

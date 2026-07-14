@@ -118,10 +118,9 @@ async function init() {
     events = JSON.parse(data);
     console.log(`Database loaded successfully. Found ${events.length} events.`);
   } catch (err) {
-    console.log('Database file not found or empty. Initializing with mock data...');
-    events = generateMockEvents();
+    console.log('Database file not found or empty. Initializing empty dataset...');
+    events = [];
     await save();
-    console.log(`Database initialized and seeded with ${events.length} mock events.`);
   }
 }
 
@@ -281,9 +280,17 @@ function getStats({ appId, experienceType, startDate, endDate }) {
   };
 }
 
+// Clear all database entries
+async function clearDatabase() {
+  events = [];
+  await save();
+  return true;
+}
+
 module.exports = {
   init,
   addEvent,
   getEvents,
-  getStats
+  getStats,
+  clearDatabase
 };

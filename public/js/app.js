@@ -330,6 +330,34 @@ function resetFilters() {
   showToast('Dashboard filters cleared.', 'info');
 }
 
+// Clear all data from the database
+async function clearDatabasePrompt() {
+  if (confirm('⚠️ WARNING: Are you sure you want to permanently delete all logged events from the database? This action cannot be undone.')) {
+    try {
+      const response = await fetch('/api/dashboard/clear', { method: 'POST' });
+      if (!response.ok) throw new Error('Failed to wipe data.');
+      
+      const result = await response.json();
+      if (result.success) {
+        showToast('Database wiped successfully.', 'success');
+        
+        // Reset filters in memory and UI to clean dropdown arrays
+        document.getElementById('filter-app-id').value = '';
+        document.getElementById('filter-experience-type').value = '';
+        document.getElementById('filter-event-type').value = '';
+        state.filters = { appId: '', experienceType: '', eventType: '', startDate: '', endDate: '' };
+        state.pagination.page = 1;
+        
+        // Reload data to show empty statistics
+        loadDashboardData();
+      }
+    } catch (err) {
+      console.error('Reset database error:', err);
+      showToast('Wipe operation failed.', 'error');
+    }
+  }
+}
+
 // Initializing ApexCharts
 function initCharts() {
   const chartFont = {

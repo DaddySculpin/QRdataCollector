@@ -3,7 +3,6 @@ const cors = require('cors');
 const path = require('path');
 const db = require('./db');
 
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -108,8 +107,19 @@ app.get('/api/dashboard/events', (req, res) => {
     });
     res.json(eventsData);
   } catch (error) {
-    console.error('Error fetching logged events:', error);
+    console.log('Error fetching logged events:', error);
     res.status(500).json({ error: 'Failed to fetch events.' });
+  }
+});
+
+// 5. API to Clear All Events (Database Wipe)
+app.post('/api/dashboard/clear', async (req, res) => {
+  try {
+    await db.clearDatabase();
+    res.json({ success: true, message: 'Database wiped successfully.' });
+  } catch (error) {
+    console.error('Error clearing database:', error);
+    res.status(500).json({ error: 'Failed to clear database.' });
   }
 });
 
